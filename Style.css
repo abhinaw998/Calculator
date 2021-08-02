@@ -1,0 +1,130 @@
+#clcbody{
+    
+    height: 510px;
+    width: 335px;
+    border: 8px solid rgba(11, 29, 83, 0.89) ;;
+    border-radius: 15px;
+    border-style:outset;
+    background-color:  rgb(23 26 93 / 94%);
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+  
+}
+#heading{
+    margin-bottom: 7px;
+    width: 84px;
+    font-size: 23px;
+    margin: auto;
+    margin-top: -7px;
+    margin-bottom: 7px;
+    color: #eaf1e1;
+}
+
+#btncontainer{
+    margin-top: 12px;
+    margin-left: 4px;
+}
+
+#container{
+    margin :9px;
+    display:inline-block;
+}
+td{
+    padding: 3px;
+}
+tr{
+    padding: 2px;
+    height: 53px;
+}
+@font-face {
+    font-family: calculatorfont;
+    src: url(digital-7\ \(mono\ italic\).ttf);
+}
+@font-face {
+    font-family: resultfont;
+    src: url(digital-italic.ttf);
+}
+#inputcontainer{
+    justify-content: center;
+    height: 115px;
+    width: 303px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 7px;
+    border-style:inset;
+}
+.results{
+    background-color: rgba(18, 190, 176, 0.938);
+    color: black;
+    border: none;
+}#ans{
+    background-color: rgb(226 171 119);
+    color: rgba(-17, 39, 83, 84.89);
+    border-color: rgb(185 120 37);
+}
+#exp{
+    height: 36px;
+    width: 299px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 0px;
+    font-size: 45px;
+    transform: scale(1, 2);
+    margin-top: 20px;
+    text-align: right;
+    font-family: calculatorfont;
+}
+#answer{
+    width: 299px;
+    height: 35px;
+    font-size: 30px;
+    word-spacing: -5px;
+    word-wrap: normal;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align:left;
+    border-bottom: 1px solid black;
+    font-family: resultfont;
+}
+.btn{
+    height: 46px;
+    width: 69px;
+    border: 6px solid;
+    border-radius: 10px;
+    border-style:outset;
+    border-color:rgba(-17, 39, 83, 84.89);
+    margin:auto;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(53 73 125);
+    color: rgb(255, 255, 255);
+}
+#AC{
+    background-color: rgb(255 233 203);
+    color: rgb(0 38 56 / 93%);
+    border-color: rgb(255 255 255);
+}
+#DEL{
+    background-color: rgb(212 62 120);
+    color: rgb(3, 13, 46);
+    border-color: rgb(113 3 46);
+}
+#evl{
+    background-color: rgba(54, 236, 197, 0.87);
+    color: rgb(3, 13, 46);
+    border-color:rgba(90, 184, 159, 0.87);
+    font-size: 35px;
+}
+.operator{
+    background-color: rgb(119 30 52 / 98%);
+    color: #ffffff;
+    border-color: rgb(72 6 19);
+}
+
+#check{
+    height: 37px;
+    width: 295px;
+    font-size: 45px;
+    text-align: right;
+    background-color: aquamarine;
+}

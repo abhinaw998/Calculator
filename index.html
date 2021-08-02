@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="Style.css" >
+    <link rel="icon" href="logo.png">
+    </head>
+    <body>
+        <div id="clcbody">
+            <div id="container">
+                <div id="heading">Calculator</div>
+                <div id="inputcontainer" >
+                    <input class="results" id="answer" value="Ans:0" disabled > 
+                    <input class="results" id="exp" value="0" disabled > 
+                </div>
+                <div id="btncontainer">
+                    <table>
+                    <tr>
+                        <td><button class="btn" id="AC" onclick="allclear()">A/C</button></td>
+                        <td><button class="btn writable " id="(" onclick="input()">(</button></td>
+                        <td><button class="btn writable " id=")" onclick="input()">)</button></td>
+                        <td><button class="btn" id="DEL" onclick="deleteone()">DEL</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn" id="ans" onclick="lastanswer()">Ans</button></td>
+                        <td><button class="btn operator" id="root" onclick="sqroot()">&#x0221A</button></td>
+                        <td><button class="btn operator" id="percent operator" onclick="input()"> %</button> </td>
+                        <td><button class="btn operator" id="division operator" onclick="input()">/</button></td>
+
+                    </tr>
+                    <tr>
+                        <td><button class="btn  " id="num9" onclick="input()">9</button></td>
+                        <td><button class="btn  " id="num8" onclick="input()">8</button></td>
+                        <td><button class="btn " id="num7" onclick="input()">7</button></td> 
+                        <td><button class="btn operator " id="multiply" onclick="input()">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn writable " id="num6" onclick="input()">6</button></td>
+                        <td><button class="btn writable " id="num5" onclick="input()">5</button></td>
+                        <td><button class="btn  " id="num4" onclick="input()">4</button></td>
+                        <td><button class="btn operator" id="add" onclick="input()">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn " id="num3" onclick="input()">3</button></td>
+                        <td><button class="btn " id="num2" onclick="input()">2</button></td>
+                        <td><button class="btn  " id="num1" onclick="input()">1</button></td>
+                        <td><button class="btn operator" id="substract" onclick="input()">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn " id="num0" onclick="input()">0</button></td>
+                        <td><button class="btn " id="num00" onclick="input()">00</button></td>
+                        <td><button class="btn " id="point" onclick="input()">.</button></td>
+                        <td><button class="btn" id="evl" onclick="equal()">=</button></td>
+                    </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
